@@ -1,0 +1,175 @@
+*{
+	padding:4px 0 0 0;
+	margin:0;
+	}nav{
+	height: 55px;
+	width: 100%;
+	background-color: #2F4F4F;
+}
+body{
+	background-color: #FAF0E6
+}
+ul li{
+	display: inline-block;
+	list-style: none;
+	float: left;
+	line-height: 15px;
+	padding: 5px;
+
+}
+ul li:hover{
+	-webkit-box-shadow: 15px 15px 8px 0px rgba(0, 48, 41, 0.89);
+-moz-box-shadow:    15px 15px 8px 0px rgba(0, 48, 41, 0.89);
+box-shadow:         15px 15px 8px 0px rgba(0, 48, 41, 0.89);
+}
+ul li a{
+text-decoration: none;
+font-size: 16px;
+display: block;
+color: #F5F5F5; 
+}
+header{
+	background-color: #F5F5F5;
+}
+.angol{
+	float: right;
+	font-size: 0.5rem;
+	list-style:  none;
+	color: white;
+	text-decoration: underline;
+	display: block;
+	padding:2px;
+	padding-right: 8px;
+
+	}
+.magyar{
+	color: white;
+	float: right;
+	font-size: 0.5rem;
+	text-decoration: underline;
+	list-style: none;
+	display: block;
+	padding: 2px;
+}
+
+.üdvözöljük{
+	
+	text-align: center;
+	padding: 30px;
+	font-size: 46px;
+	text-decoration: underline;
+}
+
+.szöveg1{
+	background-color: #40E0D0;
+	margin:15px;
+	padding: 8px;
+	border:3px solid black;
+	border-radius: 5px;
+	font-size: 21px;
+}
+span{
+	color:yellow;
+}
+img{
+	max-width: 70%;
+	display: block;
+	margin: 1rem auto;
+	
+}
+.kép{
+	display: inline-block;
+	background-color: silver;
+	margin:15px;
+	padding: 8px;
+	border:3px solid black;
+	border-radius: 5px;
+	max-width: 40%;
+	text-align: center;
+
+
+}
+.kép2{
+	display: inline-block;
+	background-color: silver;
+	margin:15px;
+	padding: 8px;
+	border:3px solid black;
+	border-radius: 5px;
+	max-width: 40%;
+	text-align: center;
+	
+	
+}
+.lábléc{
+	background-color: #2F4F4F;
+	color: white;
+	text-align: center;
+}
+details{
+	background-color: #006400;
+	margin:1rem 1rem;
+	padding: 0.5rem 1rem 3rem 5rem;
+	border-radius: 18px;
+	height: 1rem;
+
+}
+summary{
+	cursor: pointer;
+}
+details:nth-child(even){
+	background-color: #8B0000; 
+}
+.szenteste{
+	background-color: gold;
+	color: red;
+
+}
+.galéria{
+	display: inline-block;
+	background-color: silver;
+	margin:10px;
+	padding: 5px;
+	border:3px solid black;
+	border-radius: 5px;
+	max-width: 30%;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	object-fit: contain;
+
+}
+.grid{
+	display: grid;
+	grid-template-columns: minmax(min-content, 1fr) 1fr;
+}
+.felirat{
+	font-size: 25px;
+	border:4px;
+	width: 115px;
+	padding: 9px;
+	margin: 5px;
+	background-color: #2F4F4F;
+	border-radius: 32px;
+	color: white;
+}
+.bal{
+	
+	background-color: black;
+	text-align: center;
+}
+.jobb{
+	font-size: 30px;
+	background-color: orange;
+	width: 1fr;
+	text-align: center;
+}
+.leírás{
+margin: 5px;
+}
+
+.linkcim{
+	text-decoration: underline;
+	padding-bottom: 20px;
+	padding-top: 18px;
+}
